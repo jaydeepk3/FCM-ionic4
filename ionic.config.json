@@ -1,5 +1,7 @@
 {
   "name": "kalasetu",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

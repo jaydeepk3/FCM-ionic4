@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-
+import { FCM } from '@ionic-native/fcm/ngx';
+import { Platform } from '@ionic/angular';
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
@@ -7,6 +8,19 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
+  constructor(public platform: Platform, private fcm: FCM) {
+
+    this.platform.ready().then(() => {
+      this.fcm.subscribeToTopic('marketing');
+
+      this.fcm.getToken().then(token => {
+        // backend.registerToken(token);
+        console.log(token);
+
+      });
+    })
+
+
+  }
 
 }
