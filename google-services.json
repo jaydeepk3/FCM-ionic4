@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "686205009542",
+    "firebase_url": "https://vegetablesfruits-916d3.firebaseio.com",
+    "project_id": "vegetablesfruits-916d3",
+    "storage_bucket": "vegetablesfruits-916d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686205009542:android:f32a31eaefe843cf7d1b07",
+        "android_client_info": {
+          "package_name": "com.app.vegetablefruits"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686205009542-gohfdmgg01dnuai6bsj5t0h5rp40ondj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.vegetablefruits",
+            "certificate_hash": "8bc2f84c66726736e2a892cbcede45cf33582ebb"
+          }
+        },
+        {
+          "client_id": "686205009542-9c5gene677eajq81cibqacrgoc8t74lt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.vegetablefruits",
+            "certificate_hash": "4e3d06dc918dfd8a77de3bb705479f6e75b89de1"
+          }
+        },
+        {
+          "client_id": "686205009542-seb27riokpg93rhjjslbi6qmqubcj9dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWaC9Q4EA1Ae6G00u99Yn0PszpYrg4J2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686205009542-seb27riokpg93rhjjslbi6qmqubcj9dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
